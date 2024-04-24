@@ -6822,6 +6822,7 @@ __metadata:
     "@rnmapbox/maps": "npm:^10.1.19"
     "@tamagui/config": "npm:^1.95.1"
     "@tamagui/metro-plugin": "npm:^1.95.1"
+    "@turf/helpers": "npm:^6.5.0"
     "@types/react": "npm:~18.2.14"
     babel-preset-expo: "npm:^10.0.1"
     expo: "npm:~50.0.6"

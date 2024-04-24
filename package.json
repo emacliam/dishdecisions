@@ -20,6 +20,7 @@
     "@rnmapbox/maps": "^10.1.19",
     "@tamagui/config": "^1.95.1",
     "@tamagui/metro-plugin": "^1.95.1",
+    "@turf/helpers": "^6.5.0",
     "babel-preset-expo": "^10.0.1",
     "expo": "~50.0.6",
     "expo-font": "~11.10.2",

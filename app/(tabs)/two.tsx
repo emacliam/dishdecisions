@@ -1,21 +1,22 @@
-import { FlatList } from 'react-native'
+import { FlatList, StyleSheet, TouchableOpacity } from 'react-native'
 import { Button, Card, Image, ScrollView, Text, View, XStack, Paragraph, Label } from 'tamagui'
 import { useState, useEffect } from 'react';
 import { BarChart, LineChart, PieChart, PopulationPyramid } from "react-native-gifted-charts";
 import { router } from 'expo-router';
+
 export default function Orders() {
 
   const dishes = [
     {
       name: "Cold Sandwich",
       img: "https://i2.wp.com/www.downshiftology.com/wp-content/uploads/2019/04/Guacamole-1-2-200x200.jpg",
-      amount: 10,
+      amount: 6,
       location: "5 Avenue"
     },
     {
       name: "Smoothie Bowl",
       img: "https://i2.wp.com/www.downshiftology.com/wp-content/uploads/2020/11/Lentil-Soup-13-200x200.jpg",
-      amount: 11,
+      amount: 4,
       location: "5 Avenue"
     },
     {
@@ -25,20 +26,20 @@ export default function Orders() {
       location: "5 Avenue"
     },
     {
-      name: "Smoothie Bowl",
-      img: "https://i2.wp.com/www.downshiftology.com/wp-content/uploads/2020/11/Lentil-Soup-13-200x200.jpg",
+      name: "Chicken Salad",
+      img: "https://natashaskitchen.com/wp-content/uploads/2021/06/Chicken-Salad-4.jpg",
       amount: 11,
       location: "Joina City"
     },
     {
-      name: "Greek Salad",
-      img: "https://i2.wp.com/www.downshiftology.com/wp-content/uploads/2018/08/Greek-Salad-6-1.jpg",
-      amount: 40,
+      name: "Pizza",
+      img: "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/recipe-image-legacy-id-51643_11-2f4a2cc.jpg?quality=90&webp=true&resize=300,272",
+      amount: 10,
       location: "Highland Park"
     },
     {
-      name: "Smoothie Bowl",
-      img: "https://i2.wp.com/www.downshiftology.com/wp-content/uploads/2020/11/Lentil-Soup-13-200x200.jpg",
+      name: "Burger",
+      img: "https://natashaskitchen.com/wp-content/uploads/2023/06/Cheeseburger-3.jpg",
       amount: 3,
       location: "Joina City"
     }

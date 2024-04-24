@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "expo-router-example",
-    "slug": "expo-router-example",
+    "name": "dishdecision",
+    "slug": "dishdecision",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -16,7 +16,8 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.emacliam.exporouterexample"
     },
     "android": {
       "adaptiveIcon": {
@@ -37,12 +38,20 @@
         "@rnmapbox/maps",
         {
           "RNMapboxMapsImpl": "mapbox",
-          "RNMapboxMapsDownloadToken": "sk.eyJ1IjoiZW1hY2xpYW0iLCJhIjoiY2x2ZHV5ZWN2MDJqdDJpbmpoZjZsbjZ1MyJ9.YHZSETHS-vQiFvdOOU7HKg",
+          "RNMapboxMapsDownloadToken": "sk.eyJ1IjoiZW1hY2xpYW0iLCJhIjoiY2x2ZHV5ZWN2MDJqdDJpbmpoZjZsbjZ1MyJ9.YHZSETHS-vQiFvdOOU7HKg"
         }
       ]
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "46e89969-09c7-46ce-a485-cbfc56e55bf2"
+      }
     }
   }
 }

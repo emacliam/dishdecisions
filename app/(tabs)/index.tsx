@@ -22,10 +22,9 @@ export default function TabOneScreen() {
     <ScrollView showsVerticalScrollIndicator={false}>
       <View flex={1} px={15}>
         <Text mt={10} fontSize={20}>Todays Temperature</Text>
-        <Text my={30} fontSize={35} textAlign='center' fontWeight={"800"} color={"$blue11"}>34°C</Text>
+        <Text my={30} fontSize={35} textAlign='center' fontWeight={"800"} color={"$blue11"}>31°C</Text>
         <XStack alignItems='center' justifyContent='space-between'>
-          <Text fontSize={20}>Optimal dish</Text>
-          <Button mt={10} borderRadius={30} bg={"$blue11"} color={"white"}>View Preferences</Button>
+          <Text fontSize={20}>Optimal dishes for today:</Text>
         </XStack>
         <View mt={10}>
           <FlatList ItemSeparatorComponent={() => { return (<></>) }} contentContainerStyle={{ gap: 10 }} data={dishes} showsVerticalScrollIndicator={false} horizontal={true} renderItem={({ item, index }) => {
